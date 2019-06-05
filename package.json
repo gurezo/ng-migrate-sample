@@ -31,6 +31,7 @@
     "@angular/router": "^6.0.0",
     "@ngx-translate/core": "10.0.2",
     "@ngx-translate/http-loader": "3.0.1",
+    "@types/datatables.net": "^1.10.17",
     "angular-datatables": "6.0.1",
     "bootstrap": "4.2.1",
     "chroma-js": "1.4.1",
