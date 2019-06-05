@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { StringLenPipe } from './string-len.pipe';
 
 @Component({
   selector: 'app-root',
