@@ -1,5 +1,5 @@
-# ng-migrate-sample
-this is angular migrate sample
+# pipe-sample
+this is angular pipe sample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
