@@ -56,7 +56,7 @@
     "path": "0.12.7",
     "popper.js": "1.14.7",
     "rxjs": "^6.0.0",
-    "web-animation-js": "2.3.1",
+    "web-animations-js": "^2.3.1",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
