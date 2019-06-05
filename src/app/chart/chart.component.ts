@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { EChartOption } from 'echarts';
+import { EChartOption } from '../../../node_modules/echarts';
+
 
 @Component({
   selector: 'app-chart',
