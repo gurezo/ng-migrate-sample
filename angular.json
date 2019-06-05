@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pipe-sample": {
+    "ng-migrate-sample": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pipe-sample",
+            "outputPath": "dist/ng-migrate-sample",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -60,18 +60,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pipe-sample:build"
+            "browserTarget": "ng-migrate-sample:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pipe-sample:build:production"
+              "browserTarget": "ng-migrate-sample:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pipe-sample:build"
+            "browserTarget": "ng-migrate-sample:build"
           }
         },
         "test": {
@@ -105,7 +105,7 @@
         }
       }
     },
-    "pipe-sample-e2e": {
+    "ng-migrate-sample-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -113,7 +113,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "pipe-sample:serve"
+            "devServerTarget": "ng-migrate-sample:serve"
           }
         },
         "lint": {
@@ -128,5 +128,5 @@
       }
     }
   },
-  "defaultProject": "pipe-sample"
+  "defaultProject": "ng-migrate-sample"
 }
