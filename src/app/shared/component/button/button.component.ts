@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,9 +9,12 @@ import { Router } from '@angular/router';
 export class ButtonComponent implements OnInit {
   constructor(private router: Router) {}
 
+  @Input() title: string;
+  @Input() url: string;
+
   ngOnInit() {}
 
-  onClick(url: string) {
-    this.router.navigate([url]);
+  onClick() {
+    this.router.navigate([this.url]);
   }
 }
