@@ -4,19 +4,19 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: './menu/menu.module#MenuModule'
+    loadChildren: () => import('./menu/menu.module').then(mod => mod.MenuModule)
   },
   {
     path: 'chart',
-    loadChildren: './chart/chart.module#ChartModule'
+    loadChildren: () => import('./chart/chart.module').then(mod => mod.ChartModule)
   },
   {
     path: 'table',
-    loadChildren: './table/table.module#TableModule'
+    loadChildren: () => import('./table/table.module').then(mod => mod.TableModule)
   },
   {
     path: '**',
-    loadChildren: './not-found/not-found.module#NotFoundModule'
+    loadChildren: () => import('./not-found/not-found.module').then(mod => mod.NotFoundModule)
   }
 ];
 
