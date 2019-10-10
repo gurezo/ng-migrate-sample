@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { EChartOption } from '../../../node_modules/echarts';
+import { EChartOption } from 'echarts';
 
 
 @Component({
