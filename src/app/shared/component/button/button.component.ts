@@ -7,7 +7,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent implements OnInit {
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    this.title = '';
+    this.url = '';
+  }
 
   @Input() title: string;
   @Input() url: string;
