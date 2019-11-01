@@ -9,11 +9,6 @@ import { EChartOption } from 'echarts';
 })
 export class ChartComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
   chartOption: EChartOption = {
     xAxis: {
       type: 'category',
@@ -27,4 +22,10 @@ export class ChartComponent implements OnInit {
       type: 'line'
     }]
   };
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
 }
