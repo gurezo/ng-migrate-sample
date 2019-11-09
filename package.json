@@ -17,7 +17,10 @@
     "lint:sass": "./node_modules/sass-lint/bin/sass-lint.js -c sass-lint.yml -v -q",
     "e2e": "ng e2e",
     "swagger": "swagger-codegen generate -i ./swagger.yml -l typescript-angular -o ./src/app/http-service",
-    "swagger:server": "swagger-codegen generate -i ./swagger.yml -l nodejs-server -o ./server"
+    "swagger:server": "swagger-codegen generate -i ./swagger.yml -l nodejs-server -o ./server",
+    "build:stats": "ng build --prod --stats-json",
+    "build:spec": "tsc --project tsconfig.spec.json",
+    "bundle-stats": "webpack-bundle-analyzer dist/stats.json"
   },
   "private": true,
   "dependencies": {
