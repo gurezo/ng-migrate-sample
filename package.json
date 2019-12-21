@@ -61,6 +61,7 @@
     "lodash": "^4.17.11",
     "ng-click-outside": "5.1.1",
     "ng-pick-datetime": "7.0.0",
+    "ngx-cookie-service": "2.2.0",
     "ngx-echarts": "4.2.2",
     "ngx-material-timepicker": "5.2.3",
     "ngx-papaparse": "4.0.4",
@@ -72,12 +73,13 @@
     "zone.js": "0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.803.20",
-    "@angular/cli": "~8.3.20",
+    "@angular-devkit/build-angular": "~0.803.21",
+    "@angular/cli": "~8.3.21",
     "@angular/compiler-cli": "^8.2.14",
     "@angular/language-service": "^8.2.14",
     "@compodoc/compodoc": "^1.1.10",
     "@frctl/fractal": "1.2.0",
+    "@ngrx/schematics": "^8.5.2",
     "@types/backbone": "1.4.1",
     "@types/chroma-js": "1.4.3",
     "@types/datatables.net": "1.10.18",
