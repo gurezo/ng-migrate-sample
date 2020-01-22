@@ -104,7 +104,7 @@
     "karma-junit-reporter": "2.0.1",
     "karma-safari-launcher": "1.0.0",
     "protractor": "5.4.2",
-    "rxjs-lint": "0.1.7",
+    "rxjs-tslint": "^0.1.7",
     "sass-lint": "1.13.1",
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
