@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "ng-migrate-sample"
+  "defaultProject": "ng-migrate-sample",
+  "cli": {
+    "analytics": false
+  }
 }
