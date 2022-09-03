@@ -118,7 +118,6 @@
       }
     }
   },
-  "defaultProject": "ng-migrate-sample",
   "cli": {
     "analytics": false
   }
