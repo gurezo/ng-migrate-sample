@@ -1,7 +1,7 @@
 # ng-migrate-sample
 this is angular migrate sample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.x
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.x
 
 ## Development server
 
