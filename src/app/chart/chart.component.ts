@@ -1,31 +1,29 @@
-import { Component, OnInit } from '@angular/core';
-import { EChartOption } from 'echarts';
-
+import { Component, OnInit } from "@angular/core";
+import { EChartsOption } from "echarts";
 
 @Component({
-  selector: 'app-chart',
-  templateUrl: './chart.component.html',
-  styleUrls: ['./chart.component.scss']
+  selector: "app-chart",
+  templateUrl: "./chart.component.html",
+  styleUrls: ["./chart.component.scss"],
 })
 export class ChartComponent implements OnInit {
-
-  chartOption: EChartOption = {
+  chartOption: EChartsOption = {
     xAxis: {
-      type: 'category',
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      type: "category",
+      data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
     yAxis: {
-      type: 'value'
+      type: "value",
     },
-    series: [{
-      data: [820, 932, 901, 934, 1290, 1330, 1320],
-      type: 'line'
-    }]
+    series: [
+      {
+        data: [820, 932, 901, 934, 1290, 1330, 1320],
+        type: "line",
+      },
+    ],
   };
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
